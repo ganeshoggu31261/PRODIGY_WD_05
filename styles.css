@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f38181, #fce38a), #ffe5b4;
+    background-blend-mode: overlay;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Increased opacity for better readability */
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 3em;
+    color: #333;
+}
+
+#location-form {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#location-input {
+    padding: 15px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    font-size: 1.2em;
+    transition: border-color 0.3s;
+}
+
+#location-input:focus {
+    border-color: #f38181;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: #59cd90;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218c74;
+}
+
+#weather-info {
+    margin-top: 30px;
+}
+
+#weather-info h2 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    color: #333;
+}
+
+#weather-info p {
+    margin: 10px 0;
+    font-size: 1.4em;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
